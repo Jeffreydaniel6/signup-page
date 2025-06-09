@@ -1,0 +1,36 @@
+/* client/src/index.css */
+@import '~bootstrap/dist/css/bootstrap.min.css'; /* Import Bootstrap CSS */
+
+body {
+  margin: 0;
+  /* Replace these with your 2 chosen fonts */
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Light background */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom styles for layout and card containers */
+.container {
+    padding-top: 50px; /* Space from top */
+    max-width: 500px; /* Max width for forms */
+    margin: auto; /* Center the container */
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-group label {
+    font-weight: bold;
+}
